@@ -94,4 +94,4 @@ def stack_pred(estimator, X, y, Xt, k=3, method='predict'):
 
 
 
-stacking(model_list,X,y, Xt)
+stack_pred(model_list,X,y, Xt)
