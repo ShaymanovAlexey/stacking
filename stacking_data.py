@@ -52,7 +52,7 @@ def cross_validation_split(dataset, n_folds):
 
 
 
-def stacking(estimator, X, y, Xt, k=3, method='predict'):
+def stack_pred(estimator, X, y, Xt, k=3, method='predict'):
 # записываем предсказания для test для обученных данных
     models = list()
     count = 0
